@@ -1,0 +1,196 @@
+.discover_container{
+    /* border: 1px gray solid; */
+    width: 90%;
+    height: 100%;
+    background:
+    linear-gradient(rgb(184, 183, 183) 0 0) calc(1*100%/6),
+    linear-gradient(rgb(184, 183, 183) 0 0) calc(2*100%/6),
+    linear-gradient(rgb(184, 183, 183) 0 0) calc(3*100%/6),
+    linear-gradient(rgb(184, 183, 183) 0 0) calc(4*100%/6),
+    linear-gradient(rgb(184, 183, 183) 0 0) calc(5*100%/6),
+    linear-gradient(rgb(184, 183, 183) 0 0) calc(6*100%/6);
+
+  background-size:1px 100%; /* Control the width here*/
+  background-repeat:no-repeat;
+}
+
+.Discover_UpperContainer{
+    /* border: 2px black solid; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.Discover_imageContainer{
+    /* border: 2px red solid; */
+    width: 40%;
+    height: 100%;
+}
+.Discover_imageContainer img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Discover_searchContainer{
+    /* border: 2px red solid; */
+    width: 60%;
+    height: 100%;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.searchConatiner_heading{
+    /* border: 2px red solid; */
+    width: 100%;
+    height: 35%;
+   text-align: center;
+   position: relative;
+   left: -100px;
+    
+}
+.searchConatiner_heading h1{
+    font-size: 4rem;
+}
+
+.Discover_searchContainer p{
+    font-size: 1.6rem;
+}
+.Discover_searchContainer h2{
+    font-size: 3rem;
+    color: #fe6d3f;
+}
+.Discover_searchContainer h2 small{
+   font-size: 1.2rem;
+   color: black;
+   font-weight: 500;
+}
+
+
+.input_Container{
+    border: 2px gray solid;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_Container input{
+    width: 60%;
+    padding: 25px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.input_Container select{
+    border: none;
+    margin: 0rem 1.3rem;
+    font-size: 1rem;
+    outline: none;
+
+    
+}
+
+.Discover_lowerContainer{
+    /* border: 2px blue solid; */
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.Discover_lowerleft{
+    /* border: 2px green solid ; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.landmark_container{
+    /* border: 2px red solid ; */
+    width: 100%;
+    height: 50%;
+}
+
+.landmark_upper{
+    /* border: 2px black solid ; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landmark_lower{
+    /* border: 2px black solid ; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Customer{
+    padding: 10px;
+    text-align: center;
+}
+
+
+.landmark_container h1{
+    font-size: 2rem;
+    
+}
+.landmark_container p{
+    font-size: 1rem;
+    padding: 5px 0;
+    
+}
+.Discover_lowerleft i{
+    font-size: 1.2rem;
+    color: rgb(179, 178, 178);
+}
+
+.Discover_lowerRight{
+    /* border: 10px red solid; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Discover_lowerRight p{
+    padding: 1rem 0rem;
+}
+
+.lowerright_images{
+    /* border: 2px blue solid; */
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lowerRight_images_one{
+    /* border: 2px black solid; */
+    width: 45%;
+    height: 100%;
+}
+.lowerRight_images_two{
+    /* border: 2px black solid; */
+    width: 50%;
+    height: 100%;
+}
+
+.lowerright_images img{
+    width: 100%;
+    height: 100%;
+}

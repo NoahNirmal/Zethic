@@ -1,0 +1,56 @@
+.navbar_Container{
+    /* border: 2px blue solid; */
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    
+}
+
+.logo{
+    /* border: 2px green solid; */
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar_links{
+    /* border: 2px red solid; */
+    width: 69%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+
+
+}
+
+.navbar_links ul{
+    /* border: 2px black solid; */
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_links ul li{
+    list-style: none;
+    font-size: 1rem;
+}
+
+.navbar_links ul li select{
+    border: none;
+    font-size: 1rem;    
+    outline: none;
+}
+.navbar_links ul li p{
+    font-size: 1.5rem;
+}
+.navbar_links ul hr{
+    height: 60%;
+    border: 1px black solid;
+}
+
